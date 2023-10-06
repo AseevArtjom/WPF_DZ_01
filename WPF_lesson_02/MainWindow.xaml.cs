@@ -130,7 +130,7 @@ namespace WPF_lesson_02
                         case '/':
                             if (rightOperand == 0)
                             {
-                                UpdateResultBoxText("Ошибка ");
+                                UpdateResultBoxText("Ошибка");
                                 return;
                             }
                             result = leftOperand / rightOperand;
